@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="283.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="232.0" fitWidth="270.0" layoutX="7.0" layoutY="14.0" pickOnBounds="true" AnchorPane.bottomAnchor="154.0" AnchorPane.leftAnchor="7.0" AnchorPane.rightAnchor="6.0" AnchorPane.topAnchor="14.0">
+         <image>
+            <Image url="@../../../../Downloads/add-cart%20(1).png" />
+         </image>
+      </ImageView>
+      <Text layoutX="51.0" layoutY="298.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Added to cart" AnchorPane.bottomAnchor="94.09765625" AnchorPane.leftAnchor="51.0" AnchorPane.rightAnchor="50.06640625" AnchorPane.topAnchor="265.626953125">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Text>
+      <Button layoutX="78.0" layoutY="325.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="127.0" style="-fx-background-color: #4fd663;" text="OK" AnchorPane.bottomAnchor="35.0" AnchorPane.leftAnchor="78.0" AnchorPane.rightAnchor="78.0" AnchorPane.topAnchor="325.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
