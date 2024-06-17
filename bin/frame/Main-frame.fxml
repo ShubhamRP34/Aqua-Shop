@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="main_frame_parent" prefHeight="467.0" prefWidth="599.0" style="-fx-background-color: yelllow;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.Main_frame_Controller">
+   <children>
+      <AnchorPane prefHeight="34.0" prefWidth="635.0" style="-fx-background-color: #e3e3e3;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <TextField fx:id="textfield" layoutX="147.0" layoutY="5.0" prefHeight="25.0" prefWidth="234.0" promptText="Search more . . . ." style="-fx-border-color: black; -fx-border-radius: 5px; -fx-background-radius: 5px;" AnchorPane.leftAnchor="147.0" AnchorPane.rightAnchor="216.0" />
+            <ImageView fx:id="main_logo" fitHeight="31.0" fitWidth="29.0" layoutX="111.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@/resources/Menu icons/Screenshot 2024-03-21 213744.jpg" />
+               </image>
+            </ImageView>
+            <Button fx:id="con_button" layoutX="533.0" layoutY="-1.0" mnemonicParsing="false" onMouseClicked="#contact" prefHeight="39.0" prefWidth="59.0" style="-fx-background-color: #e3e3e3;" text="Contact Us" AnchorPane.rightAnchor="7.0">
+               <font>
+                  <Font size="9.0" />
+               </font>
+            </Button>
+            <Text layoutX="14.0" layoutY="22.94921875" strokeType="OUTSIDE" strokeWidth="0.0" text="Aqua Shop" wrappingWidth="83.2421875" AnchorPane.bottomAnchor="9.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="538.0" AnchorPane.topAnchor="10.0">
+               <font>
+                  <Font name="Cambria Math" size="18.0" />
+               </font>
+            </Text>
+         </children></AnchorPane>
+      <VBox layoutY="39.0" maxHeight="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="428.0" prefWidth="42.0" spacing="15.0" style="-fx-background-color: #e3e3e3;" AnchorPane.bottomAnchor="0.0" AnchorPane.topAnchor="39.0">
+         <children>
+            <Button fx:id="home_button" mnemonicParsing="false" onMouseClicked="#home" prefHeight="42.0" prefWidth="44.0" style="-fx-background-color: #e3e3e3;">
+               <graphic>
+                  <ImageView fitHeight="24" fitWidth="24" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@/resources/Menu icons/home (1).png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="fish_button" mnemonicParsing="false" onMouseClicked="#fish" prefHeight="42.0" prefWidth="44.0" style="-fx-background-color: #e3e3e3;">
+               <graphic>
+                  <ImageView fitHeight="24" fitWidth="24" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@/resources/Menu icons/fish (1).png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="f_food_button" mnemonicParsing="false" onMouseClicked="#fish_food" prefHeight="42.0" prefWidth="44.0" style="-fx-background-color: #e3e3e3;">
+               <graphic>
+                  <ImageView fitHeight="24" fitWidth="24" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@/resources/Menu icons/fish-food (1).png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="acc_button" mnemonicParsing="false" onMouseClicked="#accessories" prefHeight="42.0" prefWidth="44.0" style="-fx-background-color: #e3e3e3;">
+               <graphic>
+                  <ImageView fitHeight="24" fitWidth="24" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@/resources/Menu icons/aquarium 64p.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="med_button" mnemonicParsing="false" onMouseClicked="#medicine" prefHeight="42.0" prefWidth="44.0" style="-fx-background-color: #e3e3e3;">
+               <graphic>
+                  <ImageView fitHeight="24" fitWidth="24" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@/resources/Menu icons/medication.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="cart_button" mnemonicParsing="false" onMouseClicked="#cart" prefHeight="42.0" prefWidth="44.0" style="-fx-background-color: #e3e3e3;">
+               <graphic>
+                  <ImageView fitHeight="24" fitWidth="24" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@/resources/Menu icons/food (1).png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="user_button" mnemonicParsing="false" onMouseClicked="#user" prefHeight="42.0" prefWidth="44.0" style="-fx-background-color: #e3e3e3;">
+               <graphic>
+                  <ImageView fitHeight="24" fitWidth="24" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@/resources/Menu icons/user (1).png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </children></VBox>
+      <HBox fx:id="con_pane" alignment="TOP_RIGHT" layoutX="455.0" layoutY="4.0" onMouseEntered="#show_con_opt" onMouseExited="#hide_con_opt" prefHeight="27.0" prefWidth="128.0" style="-fx-background-color: white; visibility: false;" AnchorPane.rightAnchor="49.0">
+         <children>
+            <Button fx:id="whatsapp" focusTraversable="false" layoutX="105.0" layoutY="10.0" mnemonicParsing="false" onMouseEntered="#whats_in" onMouseExited="#whats_out" prefHeight="32.0" prefWidth="30.0" style="-fx-border-color: white; -fx-background-color: white; ">
+               <graphic>
+                  <ImageView fitHeight="24.0" fitWidth="14.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@/resources/connection_logo/whatsapp.png" />
+                     </image>
+                     </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="telegram" focusTraversable="false" layoutX="99.0" layoutY="10.0" mnemonicParsing="false" onMouseEntered="#tele_in" onMouseExited="#tele_out" prefHeight="32.0" prefWidth="30.0" style="-fx-background-color: white; -fx-border-color: white;">
+               <graphic>
+                  <ImageView fitHeight="24.0" fitWidth="14.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@/resources/connection_logo/telegram.png" />
+                     </image></ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="instagram" focusTraversable="false" layoutX="99.0" layoutY="10.0" mnemonicParsing="false" onMouseEntered="#insta_in" onMouseExited="#insta_out" prefHeight="32.0" prefWidth="30.0" style="-fx-background-color: white; -fx-border-color: white;">
+               <graphic>
+                  <ImageView fitHeight="24.0" fitWidth="14.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                        <Image url="@/resources/connection_logo/instagram.png" />
+                     </image></ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="facebook" focusTraversable="false" layoutX="99.0" layoutY="10.0" mnemonicParsing="false" onMouseEntered="#face_in" onMouseExited="#face_out" prefHeight="32.0" prefWidth="30.0" style="-fx-background-color: white; -fx-border-color: white;">
+               <graphic>
+                  <ImageView fitHeight="24.0" fitWidth="14.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                        <Image url="@/resources/connection_logo/facebook.png" />
+                     </image></ImageView>
+               </graphic>
+            </Button>
+         </children>
+      </HBox>
+      <ScrollPane fx:id="scrolllpane" hbarPolicy="NEVER" layoutX="42.0" layoutY="39.0" prefHeight="428.0" prefWidth="557.0" vbarPolicy="NEVER" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="42.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="39.0">
+         <content>
+            <VBox fx:id="Main_frame_content_vbox" prefHeight="428.0" prefWidth="556.0" />
+         </content>
+      </ScrollPane>
+     </children>
+</AnchorPane>
